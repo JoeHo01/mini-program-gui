@@ -1,0 +1,14 @@
+server:
+  serial-number: 12
+  port: 2002
+
+spring:
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: list
+
+auth:
+  secret: IAZTk@1v
+  valid: 3600000

@@ -1,0 +1,21 @@
+server:
+  serial-number: 11
+  port: 2001
+
+spring:
+  application:
+    name: list-autorization
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/list
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1002/eureka
+
+auth:
+  secret: sh4MyejMdRJ!F35a
+  valid: 3600000
