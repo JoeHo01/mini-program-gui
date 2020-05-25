@@ -22,7 +22,7 @@ import javax.validation.Valid;
  */
 @Slf4j
 @RestController
-@RequestMapping("data")
+@RequestMapping("web")
 public class CommonREST extends BaseREST {
 
 	private final CommonService commonService;
